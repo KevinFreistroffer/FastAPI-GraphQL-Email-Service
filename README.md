@@ -1,3 +1,9 @@
+# 
+Create .env and .env.local
+MONGODB_URI=mongodb+srv://<username>:<password>@journal.i636g.mongodb.net/?retryWrites=true&w=majority&appName=journal
+SENDER_EMAIL=me.me@gmail.com
+SENDER_PASSWORD="pass word is this"
+
 <!--
 title: 'AWS Python Example'
 description: 'This template demonstrates how to deploy a Python function running on AWS Lambda using the Serverless Framework.'
