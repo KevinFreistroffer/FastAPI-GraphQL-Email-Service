@@ -5,6 +5,9 @@ app: fastapi-server
 # "service" is the name of this project. This will also be added to your AWS resource names.
 service: EmailService
 
+plugins:
+  - serverless-python-requirements
+
 provider:
   name: aws
   runtime: python3.12
@@ -22,5 +25,3 @@ functions:
       SMTP_PORT: 587
       SENDER_EMAIL: ${env:SENDER_EMAIL}
       SENDER_PASSWORD: ${env:SENDER_PASSWORD}
-
-
