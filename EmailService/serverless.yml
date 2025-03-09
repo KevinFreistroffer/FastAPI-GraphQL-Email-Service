@@ -11,6 +11,7 @@ plugins:
 provider:
   name: aws
   runtime: python3.12
+  region: us-west-1
   environment: # Global environment variables
     SMTP_SERVER: smtp.gmail.com
     SMTP_PORT: 587
